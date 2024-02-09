@@ -34,11 +34,24 @@ The smallest data set is Beef with 30 train and 30 test objects, covering 5 diff
 Critics argue that the UCR Archive's single train/test split could mask implementation errors, emphasizing the need for more robust evaluation methods like K-fold cross-validation to ensure research reproducibility.
 
 # HOW BAD IS CHERRY PICKING?
+Cherry-picking in research can make an idea seem better than it really is, like when the FQT algorithm was only tested on certain data sets. 
+It's not always done on purpose, but it shows why it's important to be clear and thorough in reporting results to prevent misunderstandings.
 
 
 # BEST PRACTICES FOR USING THE ARCHIVE:
+The archive recommends thorough testing on all datasets to avoid cherry-picking and ensure comprehensive evaluation.
+Optimizing parameters exclusively on the training set and conducting appropriate statistical significance tests are essential practices for robust experimentation.
 
 
 # THE NEW ARCHIVE:
+A question raised on January 2018 to 40 researchers, the question is "What would you like to see in the new archive?".
+And answers:
+• Longer time series
+• Variable length data sets
+• Multi-variate data sets
+• Information about the provenance of the the data on the sets possibilities.
+And also some researchers wish:
+• data sets with highly unbalanced
+• data sets with very small training set to benchmark data augmentation techniques
 
 

@@ -1,4 +1,4 @@
-<br/># Introduction:
+# Introduction:
 <br/>This paper discusses the perfrmance of DNNs in TSC tasks. 
 <br/>Given the need to accurately classify time series data, researchers have proposed hundreds of methods to solve this task. One of the most popular and traditional TSC approaches is the use of a nearest neighbor (NN) classifier coupled with a distance function. 
 <br/>The Dynamic Time Warping (DTW) distance when used with a NN classifier has been shown to be a very strong baseline
@@ -9,7 +9,7 @@
 <br/>Could the black-box effect of DNNs be avoided to provide interpretability?
 <br/>
 <br/>
-<br/># Background:
+# Background:
 <br/>Although there exist many types of DNNs, in this review 3 main architectures are given for theoretical background on training DNNs for the TSC task: MLP, CNN, ESN.
 <br/>MLP: in 1 layer each neuron is connected to all neurons in previous layer, and learns directly from raw input, but may lose temporal information. 
 <br/>CNN: each neuron in a layer is connected to a local receptive field in the previous layer through convolutional operations. 
@@ -38,7 +38,7 @@
 <br/>And in this review the discriminative models are selected.
 <br/>
 <br/>
-<br/># Approaches:
+# Approaches:
 <br/>Here the nine architectures are presented such as MLP, FCN, ResNet, MCNN, t-LeNet, MCDCNN, Time-CNN, TWIESN, Encoder.
 <br/>-- MLP: The network contains 4 layers in total where each one is fully connected to the output of its previous layer.
 <br/>-- FCNs: do not contain any local pooling layers which means that the length of a time series is kept unchanged throughout the convolutions. The replacement of the traditional final FC layer with a Global Average Pooling (GAP) layer reduces drastically the number of parameters in a neural network while enabling the use of the CAM. 
@@ -52,7 +52,7 @@
 <br/>The best model on the validation set or training set loss is chosen for evaluation. For FCN, ResNet, and MLP, the learning rate was reduced when the training loss did not improve for 50 consecutive epochs.
 <br/>
 <br/>
-<br/># Experimental setup:
+# Experimental setup:
 <br/>-- Univariate archive:
 <br/>Each algorithm was tested on the whole UCR/UEA archive which contains 85 univariate time series datasets. 
 <br/>The datasets possess different varying characteristics such as the length of the series which has a minimum value of 24 for the ItalyPowerDemand dataset and a maximum equal to 2,709 for the HandOutLines dataset. 
@@ -66,7 +66,7 @@
 <br/>The results showed that deep learning models were able to significantly outperform the NN-DTW model and achieve similar results to COTE and HIVE-COTE using a deep residual network architecture.
 <br/>
 <br/>
-<br/># Results:
+# Results:
 <br/>-- Results for univariate time series:
 <br/>ResNet outperforms FCN on the majority of problems, contrary to initial findings.
 <br/>CNNs benefit from their ability to learn spatially invariant features in two-dimensional images, adapting to the natural temporal order in sequential data.
@@ -85,7 +85,7 @@
 <br/>FCN exhibits less stable performance compared to ResNet, highlighting the challenge of maintaining stability in complex DNNs.
 <br/>
 <br/>
-<br/># Visualisation:
+# Visualisation:
 <br/>For visualization CAM is used on GunPoint and Meat datasets to reduce the black-box effect.
 <br/>CAM requires models with a GAP layer preceding the softmax classifier, enabling visualization of important features used in classification decisions.
 <br/>MDS involves calculating pairwise distances between time series examples and projecting them into a 2D space, allowing for visualization and analysis of separability.

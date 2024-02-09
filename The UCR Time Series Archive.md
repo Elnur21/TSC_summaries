@@ -10,3 +10,34 @@ Test instances are labeled based on their closest match in the training set, wit
 DTW allows non-linear mapping between time series data points.
 The UCR Time Series Archive provides baseline classification results for 1-NN using Euclidean distance, unconstrained DTW, and DTW with learned warping window width. 
 The warping window width parameter is learned from training data using Leave-One-Out Cross-Validation, but in some cases, the best parameter learned in training may not generalize well to testing, particularly with very small training sets, which can lead to suboptimal classification results in real-world scenarios.
+
+
+# CRITICISMS OF THE UCR ARCHIVE
+### -- Unrealistic Assumptions: 
+There is a copious amount of perfectly aligned atomicpatterns.
+The patterns are all of equal length.
+Every item in the archive belongs to exactly one well-defined class; there is no option to choose an "unknown" or "unclassifiable".
+
+### -- The Provenance of the Data is Poor:
+The UCR Time Series Archive started as a small-scale project for a lab at the University of California, Riverside, without foreseeing its growth and significance. 
+Now, efforts are made to systematically document datasets, requiring detailed descriptions or citations from published papers for inclusion.
+
+### -- Data Already Normalized:
+Salam
+
+### -- The Individual Data Sets are Too Small:
+
+### -- The Data Sets are Not Reflective of Real-world Problems:
+
+### -- Benchmark Results are from a Single Train/Test Split:
+
+
+# HOW BAD IS CHERRY PICKING?
+
+
+# BEST PRACTICES FOR USING THE ARCHIVE:
+
+
+# THE NEW ARCHIVE:
+
+

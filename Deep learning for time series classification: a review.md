@@ -18,8 +18,8 @@ ESN: in 1 layer each neuron is connected to all neurons in previous layer but fu
 Deep learning approaches for TSC can be separated into two main categories: the generative and the discriminative models.
 
 Generative models -> (Auto Encoders, Echo State Networks) <br/>
-Auto Encoders -> (SDAE, CNN, DBN, RNN)
-Echo State Networks -> (traditional, kernel learning, meta learning)
+Auto Encoders -> (SDAE, CNN, DBN, RNN) <br/>
+Echo State Networks -> (traditional, kernel learning, meta learning) <br/>
 Generative models usually exhibit an unsupervised training step that precedes the learning phase of the classifier.
 This type of networks refers to as Model-based classifiers.
 Auto Encoders: to reconstruct input data, capturing features in a latent space. Variants include SDAE, CNN, and DBN.
@@ -28,9 +28,9 @@ Traditional ESNs for feature extraction.
 Kernel Learning ESNs for classification.
 Meta-learning ESNs for optimizing architectures.
 
-Discriminative models -> (Feature Engineering, End-to-End)
-Feature Engineering -> (image transform, domain specific)  
-End-to-End -> (MLP, CNN, Hybrid)
+Discriminative models -> (Feature Engineering, End-to-End) <br/>
+Feature Engineering -> (image transform, domain specific)  <br/>
+End-to-End -> (MLP, CNN, Hybrid) <br/>
 A discriminative model that directly learns the mapping between the raw input of a time series and outputs a probability distribution over the class variables in a dataset.
 Feature Engineering: This involves transforming time series into images using methods like Gramian fields, recurrence plots, and Markov transition fields. It also includes extracting domain-specific features, such as velocity in surgical training tasks.
 End-to-End: These models incorporate feature learning while fine-tuning the classifier.

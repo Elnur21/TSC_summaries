@@ -23,14 +23,15 @@ The UCR Time Series Archive started as a small-scale project for a lab at the Un
 Now, efforts are made to systematically document datasets, requiring detailed descriptions or citations from published papers for inclusion.
 
 ### -- Data Already Normalized:
-Salam
+The time series are already z-normalized to remove offset and scaling.
+However, in rare cases normalized data re not suitable so raw data are provided. 
 
 ### -- The Individual Data Sets are Too Small:
-
-### -- The Data Sets are Not Reflective of Real-world Problems:
+The largest data set is StarLightCurves with 1,000 train and 8,236 test objects, covering 3 classes. 
+The smallest data set is Beef with 30 train and 30 test objects, covering 5 different classes.
 
 ### -- Benchmark Results are from a Single Train/Test Split:
-
+Critics argue that the UCR Archive's single train/test split could mask implementation errors, emphasizing the need for more robust evaluation methods like K-fold cross-validation to ensure research reproducibility.
 
 # HOW BAD IS CHERRY PICKING?
 

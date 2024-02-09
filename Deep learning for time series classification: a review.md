@@ -17,7 +17,7 @@ ESN: in 1 layer each neuron is connected to all neurons in previous layer but fu
 
 Deep learning approaches for TSC can be separated into two main categories: the generative and the discriminative models.
 
-Generative models -> (Auto Encoders, Echo State Networks)
+Generative models -> (Auto Encoders, Echo State Networks) <br/>
 Auto Encoders -> (SDAE, CNN, DBN, RNN)
 Echo State Networks -> (traditional, kernel learning, meta learning)
 Generative models usually exhibit an unsupervised training step that precedes the learning phase of the classifier.

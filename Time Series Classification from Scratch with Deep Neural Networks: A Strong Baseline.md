@@ -6,18 +6,36 @@
 <br/>A multi-scale CNN approach (MCNN) has shown state-of-the-art performance on 44 benchmark datasets, but it requires complex preprocessing and tuning. 
 <br/>However, a novel approach using deep Multilayer Perceptrons (MLPs), Fully Convolutional Networks (FCNs), and Residual Networks (ResNets) achieves comparable or better results without extensive preprocessing, leveraging Class Activation Maps (CAM) to identify significant regions in raw data for specific labels.
 
+
 # NETWORK ARCHITECTURES
 ### Multilayer Perceptrons (MLP): 
 <br/>MLPs consist of three fully-connected layers with ReLU activation and dropout regularization to prevent overfitting. 
 <br/>Despite limitations with ReLU handling negative values, this structure maintains simplicity over deeper architectures.
-
+<br/>
 ### Fully Convolutional Networks (FCN): 
 <br/>FCNs serve as feature extractors, utilizing convolutional layers with batch normalization and ReLU activation. 
 <br/>Excluding pooling operations mitigates overfitting, with global average pooling reducing weight complexity before classification.
-
+<br/>
 ### Residual Network (ResNet): 
 <br/>ResNet extends neural networks with shortcut connections to enable gradient flow through deep layers, although it's prone to overfitting due to limited dataset complexity. 
 <br/>Each residual block reuses convolutional layers, followed by global average pooling and softmax classification. 
 <br/>Despite potential for optimization, the chosen structure offers a sufficient baseline demonstration.
-
+<br/>
 <br/>The activation function of each model is "softmax".
+
+
+# EXPERIMENTS AND RESULTS
+### Experiment Settings: 
+<br/>Here the neural networks are tested on a subset of the UCR time series repository with default splits. 
+<br/>Preprocessing involves z-normalization, and training details include specific optimization algorithms and loss functions. 
+<br/>Hyperparameter tuning and cross-validation are excluded to maintain an unbiased baseline.
+<br/>
+### Evaluation: 
+<br/>Seven top-performing methods are compared, with these models' complexity similar to simpler baselines. 
+<br/>Mean Per-Class Error (MPCE) is used for evaluation across datasets, providing a robust criterion. 
+<br/>FCN and ResNet demonstrate competitive performance, even though ResNet may overfit due to dataset limitations.
+<br/>
+### Results and Analysis: 
+<br/>FCN and ResNet show competitive performance, clustering with other top models according to MPCE scores. 
+<br/>Despite potential overfitting, ResNet remains effective and competitive. 
+<br/>FCN and ResNet achieve premium performance without heavy preprocessing, highlighting their effectiveness as baseline models.

@@ -60,3 +60,7 @@
 ### Deep and Shallow: 
 <br/>The 11-layer ResNet showed premium performance, benefiting from shortcut connections that enhance interpretability. 
 <br/>However, deeper models tended to overfit more easily despite regularization techniques.
+<br/>
+### Classification Semantics:
+<br/>Evaluation using per-class error (PCE) scores and PCA dimensionality reduction revealed distinct classification patterns among models. 
+<br/>FCN and ResNet showed similar behavior, while MLP showed isolated patterns, suggesting potential improvement through a deep-and-wide model approach.

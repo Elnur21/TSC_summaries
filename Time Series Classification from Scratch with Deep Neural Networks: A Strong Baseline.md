@@ -47,3 +47,9 @@
 <br/>On the 'CBF' dataset, different labels are associated with distinct patterns, such as sharp drops or rises, which are captured by the CAMs. 
 <br/>On the 'StarLightCurve' dataset, CAMs reveal how different labels correspond to specific shapes in the data. 
 <br/>CAMs provide a simple and effective way to visualize and understand how convolutional networks make classification decisions.
+
+
+# DISCUSSION
+### Overfitting and Generalization: 
+<br/>Neural networks is a strong universal approximator which is known to overfit easily due to the large number of parameters.
+<br/>And here despite the risk of overfitting, the models showed strong generalization on the UCR time series dataset.

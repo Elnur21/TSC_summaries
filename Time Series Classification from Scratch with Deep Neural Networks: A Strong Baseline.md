@@ -53,3 +53,10 @@
 ### Overfitting and Generalization: 
 <br/>Neural networks is a strong universal approximator which is known to overfit easily due to the large number of parameters.
 <br/>And here despite the risk of overfitting, the models showed strong generalization on the UCR time series dataset.
+<br/>
+### Feature Visualization and Analysis: 
+<br/>Here Gramian Angular Summation Field (GASF) was used to visualize neural network filters and weights, revealing clear structures and showcasing the effectiveness of 1-D convolution.
+<br/>
+### Deep and Shallow: 
+<br/>The 11-layer ResNet showed premium performance, benefiting from shortcut connections that enhance interpretability. 
+<br/>However, deeper models tended to overfit more easily despite regularization techniques.

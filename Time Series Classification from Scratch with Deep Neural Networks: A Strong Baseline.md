@@ -7,3 +7,17 @@
 <br/>However, a novel approach using deep Multilayer Perceptrons (MLPs), Fully Convolutional Networks (FCNs), and Residual Networks (ResNets) achieves comparable or better results without extensive preprocessing, leveraging Class Activation Maps (CAM) to identify significant regions in raw data for specific labels.
 
 # NETWORK ARCHITECTURES
+### Multilayer Perceptrons (MLP): 
+<br/>MLPs consist of three fully-connected layers with ReLU activation and dropout regularization to prevent overfitting. 
+<br/>Despite limitations with ReLU handling negative values, this structure maintains simplicity over deeper architectures.
+
+### Fully Convolutional Networks (FCN): 
+<br/>FCNs serve as feature extractors, utilizing convolutional layers with batch normalization and ReLU activation. 
+<br/>Excluding pooling operations mitigates overfitting, with global average pooling reducing weight complexity before classification.
+
+### Residual Network (ResNet): 
+<br/>ResNet extends neural networks with shortcut connections to enable gradient flow through deep layers, although it's prone to overfitting due to limited dataset complexity. 
+<br/>Each residual block reuses convolutional layers, followed by global average pooling and softmax classification. 
+<br/>Despite potential for optimization, the chosen structure offers a sufficient baseline demonstration.
+
+<br/>The activation function of each model is "softmax".

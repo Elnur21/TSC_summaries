@@ -39,3 +39,11 @@
 <br/>FCN and ResNet show competitive performance, clustering with other top models according to MPCE scores. 
 <br/>Despite potential overfitting, ResNet remains effective and competitive. 
 <br/>FCN and ResNet achieve premium performance without heavy preprocessing, highlighting their effectiveness as baseline models.
+
+
+# LOCALIZE THE CONTRIBUTING REGIONS WITH CLASS ACTIVATION MAP
+<br/>Another benefit of FCN with the global average pooling layer is its natural extension, the class activation map (CAM) to interpret the class-specific region in the data.
+<br/>CAMs highlight discriminative regions for each class, aiding in model interpretation. 
+<br/>On the 'CBF' dataset, different labels are associated with distinct patterns, such as sharp drops or rises, which are captured by the CAMs. 
+<br/>On the 'StarLightCurve' dataset, CAMs reveal how different labels correspond to specific shapes in the data. 
+<br/>CAMs provide a simple and effective way to visualize and understand how convolutional networks make classification decisions.

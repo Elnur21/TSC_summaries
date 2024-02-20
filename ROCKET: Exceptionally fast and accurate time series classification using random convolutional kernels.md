@@ -31,5 +31,11 @@
 <br/>Rocket transforms time series using convolutional kernels, as found in typical convolutional neural networks.
 <br/>
 <br/>
+# Experiments
+<br/>Rocket was developed using a subset of 40 randomly-selected datasets, to make sure that the UCR archive wasn’t overfitted.
+<br/>Optimization is performed using Adam. 
+<br/>The learning rate is halved if training loss fails to improve after 100 updates (only relevant for larger subset sizes).
+<br/>
+<br/>
 <br/>
 <br/>

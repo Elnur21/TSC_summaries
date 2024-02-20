@@ -17,7 +17,19 @@
 <br/>--Proximity Forest is an ensemble of decision trees.
 <br/>--TS-CHIEF builds on Proximity Forest, incorporating dictionary-based and interval-based splitting criteria.
 <br/>
-<br/>
 <br/>Instead of using predefined features, CNNs use convolutional kernels to automatically detect patterns in the input data.
 <br/>CNNs offer a flexible and powerful approach to time series classification by automatically learning relevant features from the data, including patterns, shapes, and frequency information.
+<br/>
+<br/>
+# Method
+<br/>Rocket transforms time series using a large number of random convolutional kernels, kernels with random length, weights, bias, dilation, and padding.
+<br/>The transformed features are used to train a linear classifier (Relu wasn't used).
+<br/>LogisticRegression and ROCKET combination is used for single-layer convolutional neural networks and here activation function is softmax.
+<br/>RidgeRegression and ROCKET combination is used fo advantage of fast cross validation for regularization hyperparameters.
+<br/>
+<br/>In effect, the only hyperparameter for Rocket is the number of kernels, k.
+<br/>Rocket transforms time series using convolutional kernels, as found in typical convolutional neural networks.
+<br/>
+<br/>
+<br/>
 <br/>

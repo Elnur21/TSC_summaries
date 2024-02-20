@@ -36,6 +36,8 @@
 <br/>Optimization is performed using Adam. 
 <br/>The learning rate is halved if training loss fails to improve after 100 updates (only relevant for larger subset sizes).
 <br/>
+<br/>Rocket is relatively robust to different choices for many parameters. 
+<br/>However, it is clear that dilation and ppv, in particular, are two key aspects of the performance of the method.
 <br/>
-<br/>
-<br/>
+<br/>Even though Rocket is nondeterministic, the variability in accuracy is reasonably low for large numbers of kernels. 
+<br/>Unsurprisingly, standard deviation diminishes as k increases.

@@ -29,9 +29,9 @@
 
         // Add your Markdown files with their corresponding file paths here
         var markdownFiles = [
-            { name: "Markdown File 1", path: "file1.md" },
-            { name: "Markdown File 2", path: "file2.md" },
-            { name: "Markdown File 2", path: "file2.md" },
+            { name: "Review", path: "Deep learning for time series classification: a review.md" },
+            { name: "UCR_Archive", path: "The UCR Time Series Archive.md" },
+            { name: "A_Strong_Baseline", path: "Time Series Classification from Scratch with Deep Neural Networks: A Strong Baseline.md" },
             { name: "ROCKET", path: "ROCKET: Exceptionally fast and accurate time series classification using random convolutional kernels.md" },
             { name: "TSC_Survey", path: "TSC_Survey.md" },
             { name: "InceptionTime", path: "InceptionTime.md" },

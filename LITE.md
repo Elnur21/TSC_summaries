@@ -24,6 +24,8 @@
 <br/> One of issues of deep learning is that it has large number of parapeters which increase training time.
 <br/> ROCKET is faster than InceptionTime because of learning filters, here filters are generated randomly.
 <br/> Instead of randomly generate filters the Hybrid FCN model was created and it is better than FCN and compotative with InceptionTime.
+
+# PROPOSED APPROACH
 <br/>
 <br/>
 <br/>

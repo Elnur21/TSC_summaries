@@ -17,13 +17,10 @@
         // Function to add links to markdown files
         function addMarkdownLink(fileName, filePath) {
             var li = document.createElement('li');
-            var a = document.createElement('a');
-            a.textContent = fileName;
-            a.href = "#";
-            a.onclick = function () {
+            li.textContent = fileName;
+            li.onclick = function () {
                 fetchMarkdownFile(filePath).then(renderMarkdownAsHTML);
             };
-            li.appendChild(a);
             document.getElementById('markdownLinks').appendChild(li);
         }
 

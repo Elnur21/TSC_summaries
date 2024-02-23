@@ -9,3 +9,8 @@
 <br/>Some works adressed Time Series classification with machine learing algortihms such as Desicion Tree and etc. 
 <br/>But disadvantage of them is that they require high CPU time and they can not be parallelized on a cluster of GPUs.
 <br/>For these reasons deep learning is used for time series.
+
+### Machine Learning for TSC
+<br/>The basic aproacj for time series is using Nearest Neighbor. 
+<br/>In some papers DTW (to define a similarity metric for NN) is used but it has limitations to extract features from imput samples.
+

@@ -19,3 +19,13 @@
 <br/> FCN and ResNet don't have droput and they have BatchNormalization and ReLu activation function to avoid overfitting.
 <br/> ResNet has residual blocks which is used to solve vanising graident problem.
 <br/> The state-of-the-art model is InceptionTime which is ensemble of 5 Inception models.
+
+### Reducing Model Complexity
+<br/> One of issues of deep learning is that it has large number of parapeters which increase training time.
+<br/> ROCKET is faster than InceptionTime because of learning filters, here filters are generated randomly.
+<br/> Instead of randomly generate filters the Hybrid FCN model was created and it is better than FCN and compotative with InceptionTime.
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>

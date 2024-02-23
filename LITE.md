@@ -14,3 +14,8 @@
 <br/>The basic aproacj for time series is using Nearest Neighbor. 
 <br/>In some papers DTW (to define a similarity metric for NN) is used but it has limitations to extract features from imput samples.
 
+### Deep Learning for TSC
+<br/> MLP (Multi Layer Perceptron) model has fully connected layers and dropout to avid overfitting.
+<br/> FCN and ResNet don't have droput and they have BatchNormalization and ReLu activation function to avoid overfitting.
+<br/> ResNet has residual blocks which is used to solve vanising graident problem.
+<br/> The state-of-the-art model is InceptionTime which is ensemble of 5 Inception models.

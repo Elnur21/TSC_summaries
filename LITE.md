@@ -40,3 +40,9 @@
 ### Proposed architecture
 <br/>Custom filters are used in first layer then multiplexing convolution is used to detect different patterns of different characteristis and then second and third layers are present the dilation in the kernels.
 <br/> In first layer standard convolution is used because DWSC will learn only one filter.
+
+# Experimental evaluation
+<br/> Here the results were obtained on UCR archive using a GTX 1080 GPU with 8GB of VRAM.
+<br> There is 9184 parameters according to using DWSC instead of standard convolution and this is 2.34% of parameters of Inception but preserving the performance.
+<br/> Actually, LITE uses small power and CO2 according to this it can be deployed on small devices such as mobile phones.
+<br/> Inception is better than LITE for long time series datasets with large respective field.

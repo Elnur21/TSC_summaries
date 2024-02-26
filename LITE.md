@@ -33,6 +33,10 @@
 <br/>DepthWise Separable Convolution DWSC is divided into 2 phases: DepthWise and PointWise Convolution.
 <br/>For DepthWise for each dimension of channel only one filter is learned. 
 <br/>
-<br/> Main idea of multiplexing is to learn in parallel different convolution layers of different kernel size.
-<br/> Dilated convolutions were not very explored for deep supervised learning. Dilation is used to increase reseptive field of model.
-<br/> Custom filters are generic and fixed they are not learned during the training and they used to detect specific patterns.
+<br/>Main idea of multiplexing is to learn in parallel different convolution layers of different kernel size.
+<br/>Dilated convolutions were not very explored for deep supervised learning. Dilation is used to increase reseptive field of model.
+<br/>Custom filters are generic and fixed they are not learned during the training and they used to detect specific patterns.
+
+### Proposed architecture
+<br/>Custom filters are used in first layer then multiplexing convolution is used to detect different patterns of different characteristis and then second and third layers are present the dilation in the kernels.
+<br/> In first layer standard convolution is used because DWSC will learn only one filter.

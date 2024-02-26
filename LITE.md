@@ -29,8 +29,10 @@
 ### Convolutions for TSC
 <br/>For standard convolutions InceptionTime uses BN(BottleNecks) operation to reduce parameters.
 <br/>BottleNeck operation is made of 1D convolutions with a unit kernel size.
-<br/> DepthWise Separable Convolution DWSC is divided into 2 phases: DepthWise and PointWise Convolution.
-<br/> For DepthWise for each dimension of channel only one filter is learned. 
+<br/>In Standard convolution each filter is the same but in DepthWise Separable Convolution each filter is different.
+<br/>DepthWise Separable Convolution DWSC is divided into 2 phases: DepthWise and PointWise Convolution.
+<br/>For DepthWise for each dimension of channel only one filter is learned. 
 <br/>
 <br/> Main idea of multiplexing is to learn in parallel different convolution layers of different kernel size.
 <br/> Dilated convolutions were not very explored for deep supervised learning. Dilation is used to increase reseptive field of model.
+<br/> Custom filters are generic and fixed they are not learned during the training and they used to detect specific patterns.

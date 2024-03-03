@@ -40,3 +40,12 @@
 <br/> Attention models, integrating mechanisms to capture long-range dependencies, enhance feature representation, with variants like self-attention and transformers revolutionizing time series classification.
 <br/>
 <br/> Graph Neural Networks revolutionize time series analysis by adapting deep learning techniques to irregularly structured data, like sensor networks, allowing for more accurate modeling of temporal dependencies and spatial relationships.
+
+
+# SELF-SUPERVISED MODELS
+<br/> SELF-SUPERVISED MODELS don't need explicit labels for learning. They are used to solve problems of costly labeled data.
+
+
+# Data augmentation
+<br/> Data augmentation enhances deep learning models by creating diverse variations of time series data. 
+<br/> Techniques include altering magnitudes, slicing into smaller segments, and combining multiple series, chosen based on the dataset and network architecture for optimal performance.

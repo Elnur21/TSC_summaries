@@ -36,3 +36,5 @@
 <br/> Long Short Term Memory networks address gradient issues.
 <br/> Gated Recurrent Unit networks excel in context memorization.
 <br/> Hybrid combines spatial and temporal learning for TSC --> hybrid = CNN-RNN models.
+<br/>
+<br/> Attention models, integrating mechanisms to capture long-range dependencies, enhance feature representation, with variants like self-attention and transformers revolutionizing time series classification.

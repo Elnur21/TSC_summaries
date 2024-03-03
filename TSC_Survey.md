@@ -26,6 +26,7 @@
 
 # SUPERVISED MODELS
 <br/> MLP processes data through interconnected layers of neurons to learn and make predictions.
+<br/> Adapted Convolutional Neural Network is offering to capture temporal and spatial features without relying on specific preprocessing methods.
 <br/> Imaging time series --> converting time series data into images that allows for leveraging spatial relationships within the data that increases model performance.
 <br/>
 <br/>

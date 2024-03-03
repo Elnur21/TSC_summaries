@@ -38,3 +38,5 @@
 <br/> Hybrid combines spatial and temporal learning for TSC --> hybrid = CNN-RNN models.
 <br/>
 <br/> Attention models, integrating mechanisms to capture long-range dependencies, enhance feature representation, with variants like self-attention and transformers revolutionizing time series classification.
+<br/>
+<br/> Graph Neural Networks revolutionize time series analysis by adapting deep learning techniques to irregularly structured data, like sensor networks, allowing for more accurate modeling of temporal dependencies and spatial relationships.

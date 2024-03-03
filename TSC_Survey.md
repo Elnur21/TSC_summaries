@@ -25,7 +25,7 @@
 
 
 # SUPERVISED MODELS
-<br/>
-<br/>
+<br/> MLP processes data through interconnected layers of neurons to learn and make predictions.
+<br/> Imaging time series --> converting time series data into images that allows for leveraging spatial relationships within the data that increases model performance.
 <br/>
 <br/>

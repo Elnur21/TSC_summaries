@@ -6,8 +6,8 @@
 
 
 # Background
-<br/>
-<br/>
+<br/>Deep learning methods for TSC/TSER are categorized into generative and discriminative approaches.
+<br/>Here taxonomy classifies discriminative methods based on network architectures, self-supervised learning, data augmentation, transfer learning.
 <br/>
 <br/>
 <br/>

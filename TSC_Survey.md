@@ -49,3 +49,13 @@
 # Data augmentation
 <br/> Data augmentation enhances deep learning models by creating diverse variations of time series data. 
 <br/> Techniques include altering magnitudes, slicing into smaller segments, and combining multiple series, chosen based on the dataset and network architecture for optimal performance.
+
+
+# TRANSFER LEARNING
+<br/> Transfer learning helps to improve time series classification by using pre-trained models, but success depends on choosing suitable datasets.
+<br/> And it is inlude limited data availability and determining the best strategy for fine-tuning the network.
+
+
+# APPLICATIONS - RECENT DEVELOPMENTS AND CHALLENGES
+<br/> Deep learning techniques applied to human activity recognition and satellite Earth observation have diverse applications, including healthcare monitoring and land cover classification.
+<br/> These applications benefit from advanced techniques like convolutional neural networks and recurrent neural networks.

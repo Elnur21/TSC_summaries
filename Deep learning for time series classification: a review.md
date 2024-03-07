@@ -88,6 +88,8 @@
 <br/>-- Effect of random initializations:
 <br/>FCN exhibits less stable performance compared to ResNet, highlighting the challenge of maintaining stability in complex DNNs.
 
+------
+
 # Visualisation:
 <br/>For visualization CAM is used on GunPoint and Meat datasets to reduce the black-box effect.
 <br/>CAM requires models with a GAP layer preceding the softmax classifier, enabling visualization of important features used in classification decisions.

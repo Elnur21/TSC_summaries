@@ -6,6 +6,7 @@
 <br/>A multi-scale CNN approach (MCNN) has shown state-of-the-art performance on 44 benchmark datasets, but it requires complex preprocessing and tuning. 
 <br/>However, a novel approach using deep Multilayer Perceptrons (MLPs), Fully Convolutional Networks (FCNs), and Residual Networks (ResNets) achieves comparable or better results without extensive preprocessing, leveraging Class Activation Maps (CAM) to identify significant regions in raw data for specific labels.
 
+------
 
 # NETWORK ARCHITECTURES
 ### Multilayer Perceptrons (MLP): 
@@ -23,6 +24,7 @@
 <br/>
 <br/>The activation function of each model is "softmax".
 
+------
 
 # EXPERIMENTS AND RESULTS
 ### Experiment Settings: 
@@ -40,6 +42,7 @@
 <br/>Despite potential overfitting, ResNet remains effective and competitive. 
 <br/>FCN and ResNet achieve premium performance without heavy preprocessing, highlighting their effectiveness as baseline models.
 
+------
 
 # LOCALIZE THE CONTRIBUTING REGIONS WITH CLASS ACTIVATION MAP
 <br/>Another benefit of FCN with the global average pooling layer is its natural extension, the class activation map (CAM) to interpret the class-specific region in the data.
@@ -48,6 +51,7 @@
 <br/>On the 'StarLightCurve' dataset, CAMs reveal how different labels correspond to specific shapes in the data. 
 <br/>CAMs provide a simple and effective way to visualize and understand how convolutional networks make classification decisions.
 
+------
 
 # DISCUSSION
 ### Overfitting and Generalization: 

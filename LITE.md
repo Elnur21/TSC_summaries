@@ -4,6 +4,7 @@
 <br/>However, LITE uses 2.34% of Inception's parameters and it achieves better results than other models (Inception, ResNet, FCN).
 <br/>Here reucing of parameters is not only the benefit of LITE but also it reduces amount of CO2 and Power and also decreaces the training time and FLOPS.
 
+------
 
 # BACKGROUND AND RELATED WORK
 <br/>Some works adressed Time Series classification with machine learing algortihms such as Desicion Tree and etc. 
@@ -25,6 +26,8 @@
 <br/> ROCKET is faster than InceptionTime because of learning filters, here filters are generated randomly.
 <br/> Instead of randomly generate filters the Hybrid FCN model was created and it is better than FCN and compotative with InceptionTime.
 
+------
+
 # PROPOSED APPROACH
 ### Convolutions for TSC
 <br/>For standard convolutions InceptionTime uses BN(BottleNecks) operation to reduce parameters.
@@ -40,6 +43,8 @@
 ### Proposed architecture
 <br/>Custom filters are used in first layer then multiplexing convolution is used to detect different patterns of different characteristis and then second and third layers are present the dilation in the kernels.
 <br/> In first layer standard convolution is used because DWSC will learn only one filter.
+
+------
 
 # Experimental evaluation
 <br/> Here the results were obtained on UCR archive using a GTX 1080 GPU with 8GB of VRAM.

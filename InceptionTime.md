@@ -46,6 +46,8 @@
 <br/>Removing residual connections did not significantly alter accuracy across datasets, but for specific cases like ShapeletSim, their absence led to overfitting.
 <br/>-- The depth in the InceptionTime model refers to the number of layers within the network architecture. The depth is varied by adjusting the number of residual blocks, each comprised of three inception modules.
 <br/>-- Sensitivity analysis was conducted to evaluate the performance of InceptionTime by choosing the second-best values for its parameters, such as network depth, width, convolution length, batch size, and bottleneck size.
-<br/>
+
+------
+
 # Conclusion:
 <br/>InceptionTime is an ensemble of Inception-based networks that achieves state-of-the-art results with significant scalability and speed, highlighting the potential for applying these advancements to multivariate TSC.

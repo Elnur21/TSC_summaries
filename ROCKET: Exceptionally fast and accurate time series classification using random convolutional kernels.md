@@ -2,8 +2,9 @@
 <br/>Most methods for time series classification that attain state-of-the-art accuracy have high computational complexity, requiring significant training time even for smaller datasets, and simply do not scale to large datasets.
 <br/>Existing methods for time series classification typically focus on a single representation such as shape, frequency, or variance.
 <br/>Rocket achieves state-of-the-art classification accuracy on the datasets in the UCR archive, but requires only a fraction of the training time of existing methods.
-<br/>
-<br/>
+
+------
+
 # Related works
 ### State-of-the-Art Methods
 <br/>Identified COTE, Shapelet Transform, and BOSS (Schäfer 2015) as the three most accurate classifiers on the UCR archive. 
@@ -19,8 +20,9 @@
 <br/>
 <br/>Instead of using predefined features, CNNs use convolutional kernels to automatically detect patterns in the input data.
 <br/>CNNs offer a flexible and powerful approach to time series classification by automatically learning relevant features from the data, including patterns, shapes, and frequency information.
-<br/>
-<br/>
+
+------
+
 # Method
 <br/>Rocket transforms time series using a large number of random convolutional kernels, kernels with random length, weights, bias, dilation, and padding.
 <br/>The transformed features are used to train a linear classifier (Relu wasn't used).
@@ -29,8 +31,9 @@
 <br/>
 <br/>In effect, the only hyperparameter for Rocket is the number of kernels, k.
 <br/>Rocket transforms time series using convolutional kernels, as found in typical convolutional neural networks.
-<br/>
-<br/>
+
+------
+
 # Experiments
 <br/>Rocket was developed using a subset of 40 randomly-selected datasets, to make sure that the UCR archive wasn’t overfitted.
 <br/>Optimization is performed using Adam. 
@@ -41,4 +44,3 @@
 <br/>
 <br/>Even though Rocket is nondeterministic, the variability in accuracy is reasonably low for large numbers of kernels. 
 <br/>Unsurprisingly, standard deviation diminishes as k increases.
-

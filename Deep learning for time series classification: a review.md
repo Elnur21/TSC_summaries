@@ -7,8 +7,9 @@
 <br/>What is the current state-of-the-art DNN for TSC ?
 <br/>Is there a current DNN approach that reaches state-of-the-art performance for TSC and is less complex than HIVE-COTE ? What type of DNN architectures works best for the TSC task ? How does the random initialization affect the performance of deep learning classifiers?
 <br/>Could the black-box effect of DNNs be avoided to provide interpretability?
-<br/>
-<br/>
+
+------
+
 # Background:
 <br/>Although there exist many types of DNNs, in this review 3 main architectures are given for theoretical background on training DNNs for the TSC task: MLP, CNN, ESN.
 <br/>MLP: in 1 layer each neuron is connected to all neurons in previous layer, and learns directly from raw input, but may lose temporal information. 
@@ -36,8 +37,9 @@
 <br/>End-to-End: These models incorporate feature learning while fine-tuning the classifier.
 <br/>Hybrid: Combines CNN with other architectures like Gated Recurrent Units and attention mechanisms, showing promising results.
 <br/>And in this review the discriminative models are selected.
-<br/>
-<br/>
+
+------
+
 # Approaches:
 <br/>Here the nine architectures are presented such as MLP, FCN, ResNet, MCNN, t-LeNet, MCDCNN, Time-CNN, TWIESN, Encoder.
 <br/>-- MLP: The network contains 4 layers in total where each one is fully connected to the output of its previous layer.
@@ -50,8 +52,9 @@
 <br/>-- Time-CNN offers unique features for both univariate and multivariate time series classification. For all the categorical cross entropy is used exclude Time-CNN because Mean Square Error is used for it as loss function. 
 <br/>-- TWIESN: It is s the only non-convolutional recurrent architecture. It employs Ridge classifiers to predict class probabilities for each time series element.
 <br/>The best model on the validation set or training set loss is chosen for evaluation. For FCN, ResNet, and MLP, the learning rate was reduced when the training loss did not improve for 50 consecutive epochs.
-<br/>
-<br/>
+
+------
+
 # Experimental setup:
 <br/>-- Univariate archive:
 <br/>Each algorithm was tested on the whole UCR/UEA archive which contains 85 univariate time series datasets. 
@@ -64,8 +67,9 @@
 <br/>The experimental setup involved training nine deep learning models on a cluster of more than 60 GPUs. Each dataset was trained for 10 different runs. 
 <br/>The mean accuracy over the 10 runs was taken to reduce bias due to weight initialization. 
 <br/>The results showed that deep learning models were able to significantly outperform the NN-DTW model and achieve similar results to COTE and HIVE-COTE using a deep residual network architecture.
-<br/>
-<br/>
+
+------
+
 # Results:
 <br/>-- Results for univariate time series:
 <br/>ResNet outperforms FCN on the majority of problems, contrary to initial findings.
@@ -83,8 +87,7 @@
 <br/>Larger training sets are essential for achieving high accuracies with deep neural networks (DNNs).
 <br/>-- Effect of random initializations:
 <br/>FCN exhibits less stable performance compared to ResNet, highlighting the challenge of maintaining stability in complex DNNs.
-<br/>
-<br/>
+
 # Visualisation:
 <br/>For visualization CAM is used on GunPoint and Meat datasets to reduce the black-box effect.
 <br/>CAM requires models with a GAP layer preceding the softmax classifier, enabling visualization of important features used in classification decisions.

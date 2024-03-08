@@ -1,4 +1,4 @@
-# TSC_summaries
+# TSC summaries
 ## Deep Learning
 ### TSC stands for Time Series Classification
 -------

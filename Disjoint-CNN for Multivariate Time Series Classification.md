@@ -7,4 +7,6 @@
 
 ------
 
-# Releated work
+# Related work
+<br/> MTSC algorithms can be divided into seven main categories: distance-based, interval-based, shapelet-based, feature-based, dictionary-based, ensemble of univariate models and deep learning models.
+<br/> 

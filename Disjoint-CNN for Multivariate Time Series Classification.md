@@ -13,7 +13,11 @@
 <br/> Interval-based algorithms extract features from intervals of a time series and typically use a tree-based classifier.
 <br/> Ductuibary based algorithms convert time series data into words (patterns).
 <br/> TapNet has 3 main parts: apply random dimension permutation, each group is fed to LSTM and FCN blocks for extracting features, low-dimensional outputs from these feature extractors are learned.
-<br/> 
-<br/> 
+
+------
+
+# Proposed Model
+<br/> In this model there are 4 blocks, each block has (1+1D) layer, BatchNormalization and ELU activation function.
+<br/> (1+1D) --> Temporal convolution layer + Spatial Convolution layer
 <br/> 
 <br/> 

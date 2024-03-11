@@ -21,3 +21,12 @@
 <br/> (1+1D) --> Temporal convolution layer + Spatial Convolution layer
 <br/> 
 <br/> 
+
+------
+
+# Experimental results
+<br/> Tensorflow which is python frame work is used on two Tesla V100 GPU with 16GB memory.
+<br/> Multivariate time series datasets are taken from UEA Repository.
+<br/> Compared results with other deep learning models' results such as FCN and no deep learning models' results such as ROCKET
+<br/> There are Disjoint-FCN and Disjoint-ResNet models and they outperform than FCN and ResNet.
+

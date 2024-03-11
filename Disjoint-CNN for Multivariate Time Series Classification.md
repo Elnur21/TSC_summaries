@@ -10,7 +10,7 @@
 # Related work
 <br/> MTSC algorithms can be divided into seven main categories: distance-based, interval-based, shapelet-based, feature-based, dictionary-based, ensemble of univariate models and deep learning models.
 <br/> Distance based approaches rely on the shape of the time series. Here only DTW is effective for MTSC.
-<br/> 
+<br/> Interval-based algorithms extract features from intervals of a time series and typically use a tree-based classifier.
 <br/> 
 <br/> 
 <br/> 

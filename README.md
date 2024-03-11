@@ -10,4 +10,4 @@
 <br/>ROCKET
 <br/>InceptionTime
 <br/>LITE
-<br/>
+<br/>Disjoint-CNN

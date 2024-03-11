@@ -11,8 +11,8 @@
 <br/> MTSC algorithms can be divided into seven main categories: distance-based, interval-based, shapelet-based, feature-based, dictionary-based, ensemble of univariate models and deep learning models.
 <br/> Distance based approaches rely on the shape of the time series. Here only DTW is effective for MTSC.
 <br/> Interval-based algorithms extract features from intervals of a time series and typically use a tree-based classifier.
-<br/> 
-<br/> 
+<br/> Ductuibary based algorithms convert time series data into words (patterns).
+<br/> TapNet has 3 main parts: apply random dimension permutation, each group is fed to LSTM and FCN blocks for extracting features, low-dimensional outputs from these feature extractors are learned.
 <br/> 
 <br/> 
 <br/> 

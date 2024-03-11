@@ -33,7 +33,7 @@
             { name: "ROCKET", path: "ROCKET.md" },
             { name: "InceptionTime", path: "InceptionTime.md" },
             { name: "LITE", path: "LITE.md" },
-            // Add more files as needed
+            {name:"Disjoint-CNN",path:"Disjoint-CNN for Multivariate Time Series Classification.md"},
         ];
 
         // Add links for each Markdown file

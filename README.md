@@ -2,7 +2,7 @@
 ## Deep Learning
 ### TSC stands for Time Series Classification
 -------
-## Papers
+## Papers:
 <br/>TSC Survey
 <br/>Review
 <br/>UCR Archive

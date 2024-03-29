@@ -11,5 +11,4 @@
 <br/>InceptionTime: https://arxiv.org/pdf/1909.04939.pdf
 <br/>LITE: https://germain-forestier.info/publis/dsaa2023.pdf
 <br/>Disjoint-CNN: https://ieeexplore.ieee.org/document/9679860
-
-<br/> Attention? https://arxiv.org/abs/1706.03762
+<br/> Attention: https://arxiv.org/abs/1706.03762

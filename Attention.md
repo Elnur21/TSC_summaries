@@ -1,6 +1,6 @@
 # Introduction
 <br/>Recurrent Neural Networks (RNNs) are great for tasks like language modeling but have limits due to sequential processing.
-<br/>It introduces the Transformer model, which uses attention mechanisms instead of recurrence, making it faster and better at translation tasks.
+<br/>Tthe Transformer model uses attention mechanisms instead of recurrence, making it faster and better at translation tasks.
 
 -----------------
 

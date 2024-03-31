@@ -34,6 +34,7 @@
             { name: "InceptionTime", path: "InceptionTime.md" },
             { name: "LITE", path: "LITE.md" },
             {name:"Disjoint-CNN",path:"Disjoint-CNN for Multivariate Time Series Classification.md"},
+            {name:"Attention",path:"Attention.md"}
         ];
 
         // Add links for each Markdown file

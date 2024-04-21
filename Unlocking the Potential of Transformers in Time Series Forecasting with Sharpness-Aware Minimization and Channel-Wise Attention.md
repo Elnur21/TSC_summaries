@@ -23,4 +23,4 @@ SAMformer outperforms TSMixer by 14.33% with fewer parameters.<br/>
 SAMformer excels on 8 real-world datasets with input length L = 512 and prediction horizons H ∈ {96, 192, 336, 720}.<br/>
 SAMformer maintains stability and smoothness in loss landscapes. <br/>
 it promotes self-correlation among features, improving expressiveness (this is unlike transformer). <br/>
-Sensitivity analysis confirms SAMformer's superiority over TSMixer in varying neighborhood sizes.
+Sensitivity analysis confirms superiority of SAMformer over TSMixer in varying neighborhood sizes.

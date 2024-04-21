@@ -22,3 +22,15 @@ The TRILITE model consists of 3 shared-weight encoders, with its architecture ba
 It employs the triplet loss, inspired by face recognition techniques, to train the model. <br/>
 Triplet generation involves a combination of mixing-up and masking approaches, ensuring diverse and informative training samples. <br/>
 The online triplet generation strategy enhances model generalization during training.
+
+-------------------
+
+# Experimental Evaluations
+
+TRILITE model is evaluated based on two identified use cases: <br/>
+1.  The datasets and implementation details are outlined, with experiments conducted on the UCR archive. <br/>
+The model is compared against a supervised FCN model and a hybrid approach, TRILITE+FCN, which concatenates self-supervised and supervised features. <br/>
+2.  Involving partially annotated datasets, a semi-supervised scenario is explored where only a portion of the data is labeled.
+<br/>
+<br/>
+The results demonstrate the effectiveness of the TRILITE+FCN approach, particularly in scenarios with limited labeled data, showcasing the potential of self-supervised learning to enhance classification performance.

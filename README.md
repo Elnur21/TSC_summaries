@@ -13,3 +13,4 @@
 <br/>Disjoint-CNN: https://ieeexplore.ieee.org/document/9679860
 <br/> Attention: https://arxiv.org/abs/1706.03762
 <br/> TSC Forecasting: https://arxiv.org/abs/2402.10198
+<br/> Self-supervised learning TRILITE: https://germain-forestier.info/publis/icaart2023.pdf 

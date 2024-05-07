@@ -22,3 +22,10 @@
 <br/>Uniformness in each row of S – Each row of a Hadamard code has m/2 symbols that equals one.
 <br/>Uniformness in each column of S – Similarly, each column of a Hadamard code has m/2 symbols that equals one.
 <br/>The pairwise Hamming distance is also m/2.
+
+-------
+
+# Using Target Code in Convolutional Network
+<br/> Here used CNN model architecture on all datasets.
+<br/> 1-of-K and Hadamar length 127 and 255 are compared.
+<br/> When the code length is increased to 255,  better results are obtained, with an average relative improvement over 11% .

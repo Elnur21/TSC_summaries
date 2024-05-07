@@ -17,4 +17,5 @@
 <li> Attention: https://arxiv.org/abs/1706.03762</li>
 <li> TSC Forecasting: https://arxiv.org/abs/2402.10198</li>
 <li> Self-supervised learning TRILITE: https://germain-forestier.info/publis/icaart2023.pdf </li>
+<li>Target Coding: https://personal.ie.cuhk.edu.hk/~ccloy/files/aaai_2015_target_coding.pdf</li>
 </ol>

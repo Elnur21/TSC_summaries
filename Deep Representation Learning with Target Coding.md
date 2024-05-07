@@ -19,4 +19,6 @@
 ------
 
 # Relevance of Target Coding in Deep Learning
-<br/>
+<br/>Uniformness in each row of S – Each row of a Hadamard code has m/2 symbols that equals one.
+<br/>Uniformness in each column of S – Similarly, each column of a Hadamard code has m/2 symbols that equals one.
+<br/>The pairwise Hamming distance is also m/2.

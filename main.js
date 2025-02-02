@@ -34,7 +34,7 @@
             { name: "InceptionTime", path: "InceptionTime.md" },
             { name: "LITE", path: "LITE.md" },
             {name:"Disjoint-CNN",path:"Disjoint-CNN for Multivariate Time Series Classification.md"},
-            {name:"Attention",path:"Attention.md"}
+            {name:"Attention",path:"Attention.md"},
             {name:"TSC_Forecasting",path:"Unlocking the Potential of Transformers in Time Series Forecasting with Sharpness-Aware Minimization and Channel-Wise Attention.md"}
         ];
 
